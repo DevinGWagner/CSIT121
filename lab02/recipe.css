@@ -1,0 +1,28 @@
+body { 
+	background-color: slategrey;
+}
+
+h1 { 
+	color: skyblue ; font-family: Geneva, sans-serif; margin: 25px;
+}
+
+h2 { 
+		color: skyblue; font-family: Geneva, sans-serif; margin: 25px;
+}
+
+ol {
+	background-color: skyblue; color: #130101; margin: 50px;
+}
+
+ul {
+	background-color: skyblue; color: #130101; margin: 50px;
+}
+
+p {
+	background-color: skyblue; color: #130101; margin: 50px;
+}
+
+a {
+	text-align: center; display: block;
+}
+

@@ -1,0 +1,54 @@
+body { 
+	background-color: slategrey;	 
+}
+
+h1 { 
+	color: skyblue ; font-family: Geneva, sans-serif; margin: 25px;
+	text-shadow: black 3px 5px;		
+}
+
+h2 { 
+	color: skyblue; font-family: Geneva, sans-serif; margin: 25px;
+	text-shadow: black 3px 5px;
+}
+
+h3 {
+
+	background-image: url(./images/spaghettiandmeatballs.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+    height: 250px; width: 250px; border: 3px solid #000000; border-radius: 200px;   	
+}
+
+ul {
+	background-color: skyblue; color: #130101; margin: 50px;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px black;
+}
+
+ol {
+	background-color: skyblue; color: #130101; margin: 50px; text-transform: capitalize;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px black;	
+}
+
+p {
+	text-indent: 5px;
+	background-color: skyblue; color: #130101; margin: 50px;
+	border-radius: 5px;
+	box-shadow: 10px 5px 5px black;	
+}
+
+a{
+	text-align: center;
+	display: block;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}

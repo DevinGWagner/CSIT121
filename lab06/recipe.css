@@ -1,0 +1,130 @@
+body {
+  background-color: slategrey;
+  background-image: url(./images/spaghettiandmeatballs.jpg);
+  background-repeat: no-repeat;
+  background-size:  cover;
+
+}
+
+h1 {
+  color: skyblue;
+  font-family: Geneva, sans-serif;
+  margin: 25px;
+  text-shadow: black 3px 5px;
+}
+
+h2 {
+  color: skyblue;
+  font-family: Geneva, sans-serif;
+  margin: 25px;
+  text-shadow: black 3px 5px;
+}
+
+h4 {
+  text-indent: 50px;
+  background-color: skyblue;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  width: 400px;
+}
+
+#wrapper { 
+	margin: auto;
+	display: flex;
+	width: 80%;
+}
+.needed {
+	float: left;
+	width: 60%;
+}
+.cooking {
+	width: 60%;
+}
+.ingredients {
+	float: left;
+	width: 100%;
+}
+.instructions {
+	width: 100%;
+}
+
+ul {
+  background-color: skyblue;
+  color: #130101;
+  margin: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+ol {
+  background-color: skyblue;
+  color: #130101;
+  margin: 25px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+p {
+  text-indent: 10px;
+  background-color: skyblue;
+  color: #130101;
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+  clear: both;
+}
+
+a {
+  text-align: center;
+  display: block;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.link:visited {
+	color: inherit;
+}
+.link:hover {
+	color: red;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    background-color: #ffffff;
+  }
+  
+  #wrapper {
+    display: block;
+    width: 100%;
+  }
+  
+  .needed, .cooking {
+    width: 100%;
+  }
+  
+  h4 {
+    width: 100%;
+  }
+  
+  ul, ol {
+    margin: 10px;
+    box-shadow: none;
+  }
+  
+  p {
+    margin: 25px;
+  }
+  
+  img {
+    width: 100%;
+  }
+}

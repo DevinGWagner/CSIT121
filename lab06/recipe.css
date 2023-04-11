@@ -111,12 +111,8 @@ img {
     width: 100%;
   }
   
-  h4 {
-    width: 100%;
-  }
-  
   ul, ol {
-    margin: 10px;
+    margin-top: 20px;
     box-shadow: none;
   }
   
@@ -126,5 +122,9 @@ img {
   
   img {
     width: 100%;
+  }
+
+  h4 {
+    margin-bottom: 20px;
   }
 }

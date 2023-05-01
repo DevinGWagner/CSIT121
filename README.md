@@ -9,5 +9,6 @@ My Repository for CSIT 121
   <li> https://devingwagner.github.io/CSIT121/lab06/</li>
   <li> https://devingwagner.github.io/CSIT121/lab07/</li>
   <li> https://devingwagner.github.io/CSIT121/lab08/</li>
+  <li>https://devingwagner.github.io/CSIT121/lab09/</li>
   <li> https://devingwagner.github.io/CSIT121/project1/</li>
 </ul>

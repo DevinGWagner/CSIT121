@@ -11,4 +11,5 @@ My Repository for CSIT 121
   <li> <a href="https://devingwagner.github.io/CSIT121/lab08/">Lab08</a></li>
   <li> <a href="https://devingwagner.github.io/CSIT121/lab09/">Lab09</a></li>
   <li> <a href="https://devingwagner.github.io/CSIT121/project1/">Project1</a></li>
+  <li> <a href="https://devingwagner.github.io/CSIT121/finalproject/">Final Project</a></li>
 </ul>

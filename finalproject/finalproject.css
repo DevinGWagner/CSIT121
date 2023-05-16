@@ -1,0 +1,329 @@
+header {
+	text-align: center;
+	font-weight: bolder;
+	background-image: url(images/MonumentValley.jpg);
+	border-radius: 10px;
+	margin: auto;
+	padding: 2px;
+	margin-top: 15px;
+}
+
+body {
+	background-color: lightgrey;
+	max-width: 1280px;
+	margin: auto;
+
+}
+
+h3{
+	text-align: center;
+	background-color: slategray;
+	padding: 5px;
+	width: auto;
+	border-radius: 10px;
+}
+
+table {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+th {
+	background-color: white;
+  	text-align: center;
+}
+
+tr:nth-child(even) {
+   background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+form {
+	background-color: slategray;
+	border-radius: 10px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	max-width: 255px;
+}
+
+footer {
+	text-align: center;
+	background-image: url(images/MonumentValley.jpg);
+	background-position: center 900px;
+	border-radius: 10px;
+	margin: auto;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+a {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: red;
+}
+
+.tester {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.aboutme {
+	margin: auto;
+	padding: 15px;
+	text-align: center;
+}
+.zofer {
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info {
+  margin-top: 0;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  text-indent: 2em;
+}
+
+.links {
+	text-align: center;
+}
+
+.gametype {
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
+.fps {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+  text-align: left;
+  
+}
+
+.battleroyalefp {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.battleroyaletp {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.strategy {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.fpscod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.codfps {
+  flex: 1;
+  text-align: center;
+}
+
+.codlogo {
+  flex: 1;
+  text-align: center;
+}
+
+.codtb {
+  flex: 1;
+  position: relative;
+}
+
+
+.fpseft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.eftfps {
+  flex: 1;
+  text-align: center;
+}
+
+.eftlogo {
+  flex: 1;
+  text-align: center;
+}
+
+.efttb {
+  flex: 1;
+  position: relative;
+}
+
+.fpsapex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.apexfps {
+  flex: 1;
+  text-align: center;
+}
+
+.apexlogo {
+  flex: 1;
+  text-align: center;
+}
+
+.apextb {
+  flex: 1;
+  position: relative;
+}
+
+.brfppubg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.pubgbrfp {
+  flex: 1;
+  text-align: center;
+}
+
+.pubglogo {
+  flex: 1;
+  text-align: center;
+}
+
+.pubgtb {
+  flex: 1;
+  position: relative;
+}
+
+.twbritannia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.britanniatw {
+  flex: 1;
+  text-align: center;
+}
+
+.twbritannialogo {
+  flex: 1;
+  text-align: center;
+}
+
+.twbritanniatb {
+  flex: 1;
+  position: relative;
+}
+
+
+.twrome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.rometw {
+  flex: 1;
+  text-align: center;
+}
+
+.twromelogo {
+  flex: 1;
+  text-align: center;
+}
+
+.twrometb {
+  flex: 1;
+  position: relative;
+}
+
+.twwarhammer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.warhammer2tw {
+  flex: 1;
+  text-align: center;
+}
+
+.twwarhammer2logo {
+  flex: 1;
+  text-align: center;
+}
+
+.twwarhammertb {
+  flex: 1;
+  position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+	.aboutme {
+		padding: 10px;
+		flex-direction: column;
+	}
+	.zofer {
+		width: 100%;
+		margin: 0;
+	}
+	.info, .links {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.gametype {
+		padding: 10px;
+	}
+	.fps, .battleroyalefp, .battleroyaletp, .strategy, .brfppubg, .twbritannia, .twrome, .twwarhammer2 {
+		display: block;
+		margin: 20px auto;
+	}
+	.fpscod, .fpseft, .fpsapex {
+		flex-direction: column;
+		align-items: center;
+		margin: 20px 0;
+	}
+	.codfps, .codlogo, .codtb, .eftfps, .eftlogo, .efttb, .apexfps, .apexlogo, .apextb, .pubgbrfp, .pubglogo, .pubgtb, .britanniatw, .twbritannialogo, .twbritanniatb, .rometw, .twromelogo, .twrometb, .warhammer2tw, .twwarhammer2logo, .twwarhammertb {
+		flex: none;
+		width: 100%;
+		margin: 10px 0;
+		text-align: center;
+	}
+}
